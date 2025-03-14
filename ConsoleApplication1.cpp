@@ -58,7 +58,6 @@ int main()
     graph_file >> numVertices >> numEdges;
 
     unordered_map<int, vector<int>> edges(numEdges);
-    unordered_map<int, vector<int>>::iterator it;
 
     for (int i = 0; i < numEdges; i++) {
         int from, to;
